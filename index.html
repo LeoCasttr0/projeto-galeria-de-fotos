@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Galeria de fotos Vanilla</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">Galeria de Fotos</h1>
+  
+
+      <div class="pesquisar">
+        <input type="text" placeholder="Pesquise aqui" id="search-box" />
+      </div>
+      <p id="no-results" style="display: none; color:aliceblue; margin-top:5px;">Nenhum registro encontrado.</p>
+
+      <!-- containet da imagem -->
+      <div class="container-image">
+        <div class="image" data-title="comida">
+          <img src="/imagens/image.png" alt="" />
+          <h3>comida saudavel</h3>
+        </div>
+
+        <div class="image" data-title="comida">
+          <img src="/imagens/comida4.jpeg" alt="" />
+          <h3>comida pizza</h3>
+        </div>
+
+        <div class="image" data-title="comida">
+          <img src="/imagens/comida3.jpg" alt="" />
+          <h3>comida tradiconal</h3>
+        </div>
+
+        <div class="image" data-title="carro">
+          <img src="/imagens/carro1.jpeg" alt="" />
+          <h3>carro amarelo</h3>
+        </div>
+
+        <div class="image" data-title="carro">
+          <img src="/imagens/carro2.jpg" alt="" />
+          <h3>carro preto</h3>
+        </div>
+
+        <div class="image" data-title="carro">
+          <img src="/imagens/carro3.avif" alt="" />
+          <h3>carro laranja</h3>
+        </div>
+
+        <div class="image" data-title="pessoa">
+          <img src="/imagens/pessoa1.jpeg" alt="" />
+          <h3>Pessoa criança</h3>
+        </div>
+
+        <div class="image" data-title="pessoa">
+          <img src="/imagens/pessoa2.jpg" alt="" />
+          <h3>Pessoa adulto</h3>
+        </div>
+
+        <div class="image" data-title="pessoa">
+          <img src="/imagens/pessoa3.jpeg" alt="" />
+          <h3>Pessoa idosa</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 Galeria de Fotos. Todos os direitos estao reservados.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
