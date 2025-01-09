@@ -6,8 +6,9 @@ __Acesse a Aplicação:__ https://projeto-galeria-de-fotos-six.vercel.app/
 - busca considera apenas o nome da foto.
 - Responsividade: todos os elementos (cabeçalho, grid de fotos, rodapé) se ajustem perfeitamente em dispositivos de diferentes tamanhos e orientações.
 - Se nenhuma foto corresponder à pesquisa, a aplicação exibe uma mensagem informativa, como “Nenhuma foto encontrada”.
+- Ao passar o mouse sobre uma foto, surge um efeito visual para melhorar a interatividade.
 
-## Palavras Chaves para pesquisa :
+## Palavras-Chave para pesquisa :
 - Comida
 - Carro
 - Pessoa
